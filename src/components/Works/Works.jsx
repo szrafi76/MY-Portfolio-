@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./Works.css";
 import github from "../../img/github.png";
-import Fiverr from "../../img/fiverr.png";
+import Twitter from "../../img/twitter.png";
 import Linkedin from "../../img/linkedin.png";
 import instagram from "../../img/instagram.png";
 import Facebook from "../../img/Facebook.png";
@@ -56,7 +56,7 @@ const Works = () => {
             <a href="https://github.com/szrafi76"><img src={github} alt="" /></a>
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+          <a href="https://mobile.twitter.com/szrafi76/"><img src={Twitter} alt="" /></a>
           </div>
           <div className="w-secCircle">
           <a href="https://www.linkedin.com/in/shahanuzzaman-rafi-0662b925b/"><img src={Linkedin} alt="" /></a>
