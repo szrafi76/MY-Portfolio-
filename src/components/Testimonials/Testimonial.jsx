@@ -15,22 +15,22 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Our honarable CTO Sir Tahmid Alam",
+        "Our honorable CTO Sir Tahmid Alam",
     },
     {
       img: profilePic2,
       review:
-        "Our honarable Senior Manager Md.Shahidur Rahman Sir",
+        "Our honorable Senior Manager Md.Shahidur Rahman Sir",
     },
     {
       img: profilePic3,
       review:
-        "Our honarable Manager & my supervisor Kazi Md. Golam Kibria sir",
+        "Our honorable Manager & my supervisor Kazi Md. Golam Kibria sir",
     },
     {
       img: profilePic4,
       review:
-        "Our honarable mentor Tanvir Alam Sir",
+        "Our honorable mentor Tanvir Alam Sir",
     },
   ];
 

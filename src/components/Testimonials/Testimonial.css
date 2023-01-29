@@ -4,13 +4,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 7rem;
+    margin-top: 1rem;
     flex-direction: column;
     gap: 2rem;
     position: relative;
 }
 .t-heading{
-    align-self: start;
+    align-self: center;
 }
 .t-heading>*{
     font-size: 2rem;
@@ -47,6 +47,7 @@
     height: 6rem;
     border-radius: 100%;
 }
+
 .testimonial>span{
     color: var(--gray);
 }
@@ -67,7 +68,6 @@
 .t-wrapper .swiper-pagination-bullet-active{
     background: var(--orange);
 }
-
 @media screen and (max-width: 480px){
     .t-wrapper{
         padding: 0;
@@ -75,5 +75,6 @@
     .testimonial>img{
         width: 70px;
         height: 70px;
+    
     }
   }

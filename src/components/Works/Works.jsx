@@ -53,19 +53,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <a href="https://github.com/szrafi76"><img src={github} alt="" /></a>
+            <a href="https://github.com/szrafi76"target="_blank" ><img src={github} alt="" /></a>
           </div>
           <div className="w-secCircle">
-          <a href="https://mobile.twitter.com/szrafi76/"><img src={Twitter} alt="" /></a>
+          <a href="https://mobile.twitter.com/szrafi76/"target="_blank"><img src={Twitter} alt="" /></a>
           </div>
           <div className="w-secCircle">
-          <a href="https://www.linkedin.com/in/shahanuzzaman-rafi-0662b925b/"><img src={Linkedin} alt="" /></a>
+          <a href="https://www.linkedin.com/in/shahanuzzaman-rafi-0662b925b/"target="_blank"><img src={Linkedin} alt="" /></a>
           </div>{" "}
           <div className="w-secCircle">
-          <a href="https://www.instagram.com/s.z.rafi/"><img src={instagram} alt="" /></a>
+          <a href="https://www.instagram.com/s.z.rafi/"target="_blank"><img src={instagram} alt="" /></a>
           </div>
           <div className="w-secCircle">
-          <a href="https://www.facebook.com/szrafi"><img src={Facebook} alt="" /></a>
+          <a href="https://www.facebook.com/szrafi" target="_blank"><img src={Facebook} alt="" /></a>
           </div>
         </motion.div>
         {/* background Circles */}
