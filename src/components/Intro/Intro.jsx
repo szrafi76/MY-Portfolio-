@@ -30,7 +30,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>SZ. RaFi</span>
           <span>
-          Currently I am working as a web developer in Akij Venture Ltd.
+          Currently I am working as a web developer at Akij Venture Ltd.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>

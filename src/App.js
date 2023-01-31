@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Photo from "./components/Photo/photo"
 import Testimonial from "./components/Testimonials/Testimonial";
 import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact"
 import { useContext } from "react";
 import { themeContext } from "./Context";
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Portfolio />
       <Photo/>
       <Testimonial />
+      <Contact/>
       <Footer />
     </div>
   );
