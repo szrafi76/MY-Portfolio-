@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react"
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Sidebar from "../../img/tour3.png";
 import Ecommerce from "../../img/2tour.png";
@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Happy Moment</span>
+      <span style={{ color: darkMode ? "white" : "" }}>Happy Moment</span>
       <span>Picture</span>
 
       {/* slider */}
@@ -21,8 +21,7 @@ const Portfolio = () => {
         spaceBetween={30}
         slidesPerView={3}
         grabCursor={true}
-        className="portfolio-slider"
-      >
+        className="portfolio-slider">
         <SwiperSlide>
           <img src={Sidebar} alt="" />
         </SwiperSlide>
@@ -33,7 +32,7 @@ const Portfolio = () => {
           <img src={MusicApp} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" style={{width:"400px", height:"250px"}} />
+          <img src={HOC} alt="" style={{ width: "400px", height: "250px" }} />
         </SwiperSlide>
       </Swiper>
     </div>

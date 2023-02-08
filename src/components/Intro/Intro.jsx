@@ -30,7 +30,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>SZ. RaFi</span>
           <span>
-          Currently I am working as a web developer at Akij Venture Ltd.
+            Currently I am working as a web developer at Akij Venture Ltd.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -47,7 +47,7 @@ const Intro = () => {
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boy} alt="" height={"350px"}/>
+        <img src={boy} alt="" height={"350px"} />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
@@ -61,8 +61,7 @@ const Intro = () => {
           initial={{ top: "-4%", left: "74%" }}
           whileInView={{ left: "68%" }}
           transition={transition}
-          className="floating-div"
-        >
+          className="floating-div">
           <FloatinDiv img={crown} text1="Web" text2="Developer" />
         </motion.div>
 
@@ -71,8 +70,7 @@ const Intro = () => {
           initial={{ left: "9rem", top: "18rem" }}
           whileInView={{ left: "0rem" }}
           transition={transition}
-          className="floating-div"
-        >
+          className="floating-div">
           {/* floatinDiv mein change hy dark mode ka */}
           <FloatinDiv img={thumbup} text1="Stay" text2="Happy" />
         </motion.div>
@@ -86,8 +84,7 @@ const Intro = () => {
             width: "21rem",
             height: "11rem",
             left: "-9rem",
-          }}
-        ></div>
+          }}></div>
       </div>
     </div>
   );

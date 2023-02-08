@@ -40,16 +40,16 @@ const Testimonial = () => {
         <span>Some </span>
         <span>Other </span>
         <span>Information</span>
-      <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
-      <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
-
+        <div
+          className="blur t-blur1"
+          style={{ background: "var(--purple)" }}></div>
+        <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
       </div>
       <Swiper
         // install Swiper modules
         modules={[Pagination]}
         slidesPerView={1}
-        pagination={{ clickable: true }}
-      >
+        pagination={{ clickable: true }}>
         {clients.map((client, index) => {
           return (
             <SwiperSlide key={index}>

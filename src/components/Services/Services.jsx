@@ -42,8 +42,7 @@ const Services = () => {
         <motion.div
           initial={{ left: "25rem" }}
           whileInView={{ left: "14rem" }}
-          transition={transition}
-        >
+          transition={transition}>
           <Card
             emoji={HeartEmoji}
             heading={"Education"}
@@ -54,8 +53,7 @@ const Services = () => {
         <motion.div
           initial={{ left: "-11rem", top: "12rem" }}
           whileInView={{ left: "-4rem" }}
-          transition={transition}
-        >
+          transition={transition}>
           <Card
             emoji={Glasses}
             heading={"Developer"}
@@ -66,8 +64,7 @@ const Services = () => {
         <motion.div
           initial={{ top: "19rem", left: "25rem" }}
           whileInView={{ left: "12rem" }}
-          transition={transition}
-        >
+          transition={transition}>
           <Card
             emoji={Humble}
             heading={"Hobby"}
@@ -79,8 +76,7 @@ const Services = () => {
         </motion.div>
         <div
           className="blur s-blur2"
-          style={{ background: "var(--purple)" }}
-        ></div>
+          style={{ background: "var(--purple)" }}></div>
       </div>
     </div>
   );

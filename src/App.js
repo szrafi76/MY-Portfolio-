@@ -5,10 +5,9 @@ import "./App.css";
 import Experience from "./components/Experience/Experience";
 import SocialMedia from "./components/SocialMedia/SocialMedia";
 import Portfolio from "./components/Portfolio/Portfolio";
-import Photo from "./components/Photo/photo"
 import Testimonial from "./components/Testimonials/Testimonial";
 import Footer from "./components/Footer/Footer";
-import Contact from "./components/Contact/Contact"
+import Contact from "./components/Contact/Contact";
 import { useContext } from "react";
 import { themeContext } from "./Context";
 function App() {
@@ -20,17 +19,15 @@ function App() {
       style={{
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : "",
-      }}
-    >
+      }}>
       <Navbar />
       <Intro />
       <Services />
       <Experience />
       <SocialMedia />
       <Portfolio />
-      <Photo/>
       <Testimonial />
-      <Contact/>
+      <Contact />
       <Footer />
     </div>
   );
