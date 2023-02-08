@@ -5,41 +5,41 @@ import "swiper/css";
 
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/tahmid.png";
-import profilePic2 from "../../img/sayed.png";
-import profilePic3 from "../../img/kanak.png";
-import profilePic4 from "../../img/tanvir.PNG";
+import profilePic1 from "../../img/seo2.png";
+import profilePic2 from "../../img/web.jpg";
+import profilePic3 from "../../img/w.png";
+import profilePic4 from "../../img/ten.jpg";
 
 const Testimonial = () => {
   const clients = [
     {
       img: profilePic1,
       review:
-        "Our honorable CTO Sir Tahmid Alam",
+        "From 2010, I started my first outsourcing in SEO and worked in this field from 2010 to 2018",
     },
     {
       img: profilePic2,
       review:
-        "Our honorable Senior Manager Md.Shahidur Rahman Sir",
+        "In 2018, I started learning web development and now I work in it",
     },
     {
       img: profilePic3,
       review:
-        "Our honorable Manager & my supervisor Kazi Md. Golam Kibria sir",
+        "From 2019 to 2022, I built WordPress websites and earned from them.",
     },
     {
       img: profilePic4,
       review:
-        "Our honorable mentor Tanvir Alam Sir",
+        "From 2021 to 2022, I started a remote job at a company named 'TenTwenty'",
     },
   ];
 
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Our </span>
-        <span>Development </span>
-        <span>Team</span>
+        <span>Some </span>
+        <span>Other </span>
+        <span>Information</span>
       <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
